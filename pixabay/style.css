@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    padding: 0px;  
+    font-family: 'Oxygen', sans-serif;  
+}
+.countaner{
+    /* border:2px solid rgb(99, 18, 32); */
+    height: 70px;
+}
+.left{
+    /* border: 2px solid green; */
+    display: inline-block;
+    position: relative;
+    left: 10px;
+}
+.mid{
+    /* border: 2px solid orange; */
+    display: inline-block;
+    position: relative;
+    left: -18px;
+    bottom: 37px;
+    font-size: 14px;
+    padding: 0px;
+    margin: 20px;
+}
+/* ######################## */
+.right{
+    /* border: 2px solid blue; */
+    display: inline-block;
+    position: relative;
+    left: 113px;
+    bottom: 37px;
+    font-size: 14px;
+    /* z-index: -100; */
+}
+.right a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 11px;
+    color:rgb(82, 78, 78) ;
+    
+
+}
+.right a:hover{
+    color:rgb(165, 160, 160) ;
+    
+}
+.right a img{
+    width: 14px;
+}
+#line{
+    border-right: 2px solid rgb(190, 183, 183) ;
+
+}
+#btn{
+    background-color: rgb(63, 235, 77);
+    border-radius: 40px;
+    width: 30px;
+}
+/* ###################### */
+
+.left img{
+    width: 166px;
+    height: 86px;
+}
+
+.mid a{
+    text-decoration: none;
+    color: rgb(82, 78, 78);
+    padding: 9px;
+    margin-right: 8px;
+}
+.mid a:hover{
+    color: rgb(165, 160, 160);
+}
+
+
+.serch{
+    /* border: 2px solid black; */
+    /* background-color: rgb(21, 204, 189); */
+    
+    width: 1270px;
+    height: 545px;
+     position: absolute; 
+    z-index: 1;
+}
+.serch h2{
+    padding-top: 111px;
+    margin-left: 350px;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.serch p{
+    text-align: center;
+}
+.serch input{
+    border-radius: 12px; 
+    width: 575px;
+    height: 65px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    left: 352px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    padding: 1px;
+    margin: auto;
+    border-right: 2px solid white;
+}
+.serch img{
+    display: block;
+    width: 575;
+    height: 70px;
+    /* display: inline-block; */
+    position: absolute;
+    left: 291px;
+    background-color: white;
+}
+#para{
+    display: inline-block;
+    position: absolute;
+    bottom: 154px;
+    right: 320px;
+    text-align: center;
+    /* border: 2px solid red; */
+    padding: -1px;
+    margin: 8px;
+    width: 600px;
+    font-size: 15px;
+}
+.photo_handal{
+    /* border: 8px solid rgb(80, 2, 15); */
+    display: inline-block;
+    position: absolute;
+    top: 85px;
+    left: 125px;
+    height: 300px;
+    
+}
+.photo_handal img{
+    /* width: 100px;
+    display: inline-block; */
+
+    /* width:; */
+}
+

@@ -1,0 +1,168 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: rgb(10, 10, 10); */
+    background-color:  hsl(240, 13%, 12%);
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    
+}
+.nave{
+    /* border: 2px solid hsl(235, 89%, 57%) ; */
+    height: 60px;
+}
+.left{
+    /* border: 2px solid pink; */
+    display: inline-block;
+    position: absolute;
+    left: 203px;
+    top: 8px;
+} 
+.left h2{
+    position: absolute;
+    top: -12px;
+    margin-left:10px ;
+}  
+.left h2 a{
+    text-decoration: none;
+    color:rgb(74, 61, 187);
+}
+.right{
+    /* border: 2px solid orange; */
+    display: inline-block;
+    position: absolute;
+    right: 90px;
+    top: 0px; 
+}
+.left img{
+    width: 38px;    
+}
+.left h2{
+    display: inline-block;
+    width: 38px;
+}
+.right a{
+    margin: 11px;
+    padding: 11px;
+    text-decoration: none;
+    color: rgb(143, 129, 245);
+    border-radius: 4px;
+}
+.right a:hover{
+    background-color: rgb(74, 61, 187);
+    text-decoration: underline 2px white;
+}
+.right a:active{
+    background-color:rgb(156, 150, 150) ;
+}
+.right button{
+    margin: 11px;
+    padding:12px ;
+    background-color:rgb(74, 61, 187);
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.right button:hover{
+    background-color:rgb(134, 129, 185) ;
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@       next_ section  @@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.pop{
+    border: 2px solid rgb(143, 129, 245);
+    margin-top: 6px;
+    padding: 4px;
+    background-color: rgb(143, 129, 245);
+}
+.pop a{
+    text-decoration: none;
+    color:white;
+}
+.pop a h2{
+    font-size: medium;
+    text-align: center;
+    text-decoration: underline 1px white;
+}
+.headin h1{
+    text-align: center;
+    font-size: 40px;
+    line-height: 2px;
+}
+/* .contaner{
+    /* border: 2px solid green; 
+
+} */
+.box{
+    display: absolute;
+    padding: 10px;
+    /* border: 2px solid yellow; */
+    width: 573px;
+    height: 220px;
+    margin: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.box:hover{
+    background-color:hsl(240, 13%, 38%);
+}
+.contaner img{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    right: 2px;
+}
+.box h1,span,p{
+    display: inline-block;
+    position: relative;
+    top:-227px;
+    bottom: 2px;
+    left : 322px;
+    right: 2px;
+    padding: 2px;
+}
+.box h1{
+ display: block;
+ padding: 2px;
+ font-size: 28px;
+}
+.box :hover{
+    cursor: pointer;
+}
+.box p{
+  padding: 173px;
+  /* border: 2px solid red; */
+  display: inline-block;
+  position: relative;
+  left: 150px;
+  top: -414px;
+}
+.next{
+    text-align: center;
+    padding: 150px;
+    margin: 35px;
+}
+.next a{
+   text-decoration: none;
+   color: rgb(169, 168, 182);
+   background-color: rgb(74, 61, 187);
+   padding-left:25px;
+   padding-right: 25px;
+   padding-top: 2px;
+   padding-bottom: 4px;
+   margin:4px;
+   border-radius: 4px;
+}
+.k{
+    text-align: center;
+    
+}
+.k a{
+    color: aqua;
+}
+.d{
+    text-align: center;
+}
+.d a{
+    color: aqua;
+}

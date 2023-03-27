@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+.matareal ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.navbar {
+    background-color:rgb(39, 39, 39);
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid gold;
+    position: fixed; /* Set the navbar to fixed position */
+     top: 0; /* Position the navbar at the top of the page */
+     width: 99.5%;
+     z-index: 2;
+    
+    
+   
+
+}
+.navbar ul li {
+    list-style: none;
+}
+.navbar ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: gold;
+    font-size: 1.4em;
+    padding-left:12px ;
+    padding-right: 12px;
+   
+    
+}
+.navbar img{
+    width: 70px;
+    height: 70px;
+}
+.navbar ul li a:hover{
+    border: 2px solid gold;
+}
+/* ###########################nave bar complate */
+.main{
+    background-color: black;
+    color: gold;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gold;
+    height: 100%;
+    width: 99%;
+}
+.main h1{
+    font-size: 7em;
+    text-transform: uppercase;
+    text-align: start;
+}
+.main h2{
+    font-size: 4em;
+    text-align: start;
+    text-transform: uppercase;
+}
+.main p{
+    /* border: 2px solid gold; */
+    padding: 12px;
+    margin-top: 12px;
+    height: 100px;
+    width: 400px;
+}
+.left{
+    border: 2px solid gold;
+    margin: 12px;
+    padding: 20px;
+    height: 580px;
+}
+
+.right{
+    border: 2px solid gold;
+    margin: 12px;
+    /* height: 400px; */
+}
+.right img{
+    width: 600px;
+    height: 600px;
+    margin: 12px;
+}
+.right a{
+    text-decoration: none;
+    color: gold;
+    border: 2px solid gold;
+}
+.left button{
+    border: none;
+    background-color: gold;
+    padding: 8px;
+    margin: 8px;
+    color: rgb(7, 7, 7);
+    width: 200px;
+    height: 30px;
+    border: 2px solid gold;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-bottom: 36px;
+}
+.left button:hover{
+    cursor: pointer;
+    background-color: black;
+    color:gold ;
+}
+/* ################### NEW SECTION ###################### */
+.offer{
+    background-color: gold;
+    margin-top:50px ;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 99%;
+    height: 60px;
+}
+.tem{
+    font-size: 2em;
+    color: black;
+    padding: 4px;
+    border-radius: 8px;
+    border: 2px solid black;
+    /* position: relative;
+    animation: off;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    overflow: hidden; */
+    
+}
+@keyframes off {
+    from{
+        left: 20px;
+    }
+    to{
+        right: 10px;
+    }
+}
+.tem a{
+    text-decoration: underline black;
+    color: gold;
+    background-color: black;
+    margin: 4px;
+    padding: 4px;
+    border-radius: 8px;
+    position: relative;
+    animation: off;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+    overflow: hidden;
+    z-index: 0;
+}
+.section_1{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px double gold;
+}
+.item_1{
+    color: gold;
+    border: 2px solid gold;
+    width: 20%;
+    height: 400px;
+    padding: 20px;
+    margin: 14px;
+    margin-right: 0px;
+    
+}
+.item_1 h1{
+    font-size: 4em;
+}
+.item_1 button{
+    border: none;
+    background-color: gold;
+    padding: 8px;
+    margin: 8px;
+    color: rgb(7, 7, 7);
+    width: 200px;
+    height: 30px;
+    border: 2px solid gold;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-bottom: 36px;
+    margin-top: 40px;
+}
+.item_1 button:hover{
+    cursor: pointer;
+    background-color: black;
+    color:gold ;
+}
+
+/* ############################################### scrool bar  */   
+/* width */
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: gold; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: gold; 
+  }
+
+.fot{
+    border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+    margin-bottom: 20px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub label{
+    text-transform: uppercase;
+    color: gold;
+    font-size: 2em;
+}
+.sub input{
+    height: 60px;
+    width: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+.sub{
+    /* border: 2px solid green; */
+    width: 500px;
+    height: 200px;
+    padding: 30px;
+    margin-top: 12px;
+    
+}
+.sub button{
+    border: none;
+    background-color: gold;
+    padding: 8px;
+    margin: 8px;
+    color: rgb(7, 7, 7);
+    width: 100px;
+    height: 30px;
+    border: 2px solid gold;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-bottom: 36px;
+    margin-top: 40px;
+}
+.sub button:hover{
+    cursor: pointer;
+    background-color: black;
+    color:gold ;
+}
+
+.manu{
+    border-left:2px solid gold ;
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+
+}
+.manu li{
+    list-style: none;
+    /* border-right: 2px solid gold; */
+}
+.manu ul li a{
+    text-decoration: none;
+    color: gold;
+    padding:12px;
+    font-size: large;
+    line-height: 40px;
+}
